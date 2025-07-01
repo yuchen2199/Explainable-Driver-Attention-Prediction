@@ -51,8 +51,9 @@ If you find this work helpful, please cite:
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2506.23088}, 
 }
+```
 
-## 📦 Citation
+## 📦 Contact
 Feel free to reach out for questions or collaborations:
 
 📧 Yuchen Zhou: zhouych37@mail2.sysu.edu.cn
