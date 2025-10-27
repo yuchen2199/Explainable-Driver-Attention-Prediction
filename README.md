@@ -23,7 +23,7 @@ This work introduces **Explainable Driver Attention Prediction (EDAP)** — a no
 
 We present:
 
-- **W³DA**: The first large-scale dataset with spatial, semantic, and causal annotations across normal, critical, and accident driving scenarios.
+- **W³DA**: The first large-scale dataset with spatial, semantic, and causal annotations across normal, critical, and accident driving scenarios. It’s available [here](https://huggingface.co/datasets/JYT4chenxiyuxi/W3DA/tree/main).
 - **LLada**: A multimodal large language model (MLLM)-driven architecture that unifies pixel prediction, semantic parsing, and causal reasoning in an end-to-end framework.
 
 ---
@@ -34,7 +34,7 @@ We are actively building this repository. The full code and cleaned dataset will
 
 - [✔] Initial Code Release
 - [ ] Refactored & Cleaned Code
-- [ ] Cleaned W³DA Dataset Release
+- [✔] Cleaned W³DA Dataset Release
 ---
 
 ## Training
@@ -45,9 +45,9 @@ In LLada, we employ the pre-trained LLaVA weights `LLaVA-Lightning-7B-v1-1` , wh
 
 ### Data Preparation
 
-W³DA Dataset sources from 4 public datasets, [**BDDA**](http://bdd-data.berkeley.edu/download.html), [**DR(eye)VE**](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=8), [**LBW**](https://github.com/Kasai2020/look_both_ways?tab=readme-ov-file), [**DADA-2000**](https://github.com/JWFangit/LOTVS-DADA).
+W³DA Dataset sources from 4 public datasets, [**BDDA**](http://bdd-data.berkeley.edu/download.html), [**DR(eye)VE**](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=8), [**LBW**](https://github.com/Kasai2020/look_both_ways?tab=readme-ov-file), [**DADA-2000**](https://github.com/JWFangit/LOTVS-DADA). 
 
-Upon downloading the W³DA dataset, you need to organize it as follows:
+It is available [here](https://huggingface.co/datasets/JYT4chenxiyuxi/W3DA/tree/main). Upon downloading the W³DA dataset, you need to organize it as follows:
 
 ```
 ├── dataset
@@ -150,5 +150,4 @@ If you find this work helpful, please cite:
 Feel free to reach out for questions or collaborations:
 
 📧 Yuchen Zhou: zhouych37@mail2.sysu.edu.cn
-
 
