@@ -35,7 +35,7 @@ def parse_args(args):
     parser = argparse.ArgumentParser(description="LLaDA Model Training")
     parser.add_argument("--local_rank", default=0, type=int, help="node rank")
     parser.add_argument(
-        "--version", default="./weights/LLaVA-7B-Lightening-v1-1"
+        "--version", default="./weights/LLaVA-7B-Lightening-v1-1"   # Path to pretrained LLaVA model, or already trained LLada model
     )
     parser.add_argument("--vis_save_path", default="./vis_output", type=str)
     parser.add_argument(
