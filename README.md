@@ -37,6 +37,13 @@ We are actively building this repository. The full code and cleaned dataset will
 - [✔] Cleaned W³DA Dataset Release
 ---
 
+## Installation
+
+```
+pip install -r requirements.txt
+sudo apt-get install openjdk-8-jdk
+```
+
 ## Training
 
 ### Pre-trained weights
